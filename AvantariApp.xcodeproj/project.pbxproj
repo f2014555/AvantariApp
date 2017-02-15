@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		519100871E5367F600DC2038 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 519100851E5367F600DC2038 /* Model.xcdatamodeld */; };
+		51AAE92E1E54346F000A798C /* Model.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 51AAE92D1E54346F000A798C /* Model.xcdatamodel */; };
 		51BD15711E51E7A2006656D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD15701E51E7A2006656D4 /* AppDelegate.swift */; };
 		51BD15731E51E7A2006656D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD15721E51E7A2006656D4 /* ViewController.swift */; };
 		51BD15761E51E7A2006656D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD15741E51E7A2006656D4 /* Main.storyboard */; };
@@ -51,7 +51,7 @@
 
 /* Begin PBXFileReference section */
 		00524A2001220DB2024910F4 /* Pods_AvantariApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvantariApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		519100861E5367F600DC2038 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		51AAE92D1E54346F000A798C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		51BD156D1E51E7A2006656D4 /* AvantariApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvantariApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51BD15701E51E7A2006656D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51BD15721E51E7A2006656D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +127,7 @@
 		51BD156F1E51E7A2006656D4 /* AvantariApp */ = {
 			isa = PBXGroup;
 			children = (
+				51AAE92D1E54346F000A798C /* Model.xcdatamodel */,
 				51BD15771E51E7A2006656D4 /* Assets.xcassets */,
 				51BD159E1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift */,
 				51BD15701E51E7A2006656D4 /* AppDelegate.swift */,
@@ -134,7 +135,6 @@
 				51BD15841E51EF1B006656D4 /* SocketIOManager.swift */,
 				51BD15741E51E7A2006656D4 /* Main.storyboard */,
 				51BD15791E51E7A2006656D4 /* LaunchScreen.storyboard */,
-				519100851E5367F600DC2038 /* Model.xcdatamodeld */,
 				51BD157C1E51E7A2006656D4 /* Info.plist */,
 			);
 			path = AvantariApp;
@@ -319,8 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51BD159F1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift in Sources */,
+				51AAE92E1E54346F000A798C /* Model.xcdatamodel in Sources */,
 				51BD15731E51E7A2006656D4 /* ViewController.swift in Sources */,
-				519100871E5367F600DC2038 /* Model.xcdatamodeld in Sources */,
 				51BD15851E51EF1B006656D4 /* SocketIOManager.swift in Sources */,
 				51BD15711E51E7A2006656D4 /* AppDelegate.swift in Sources */,
 			);
@@ -560,20 +560,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		519100851E5367F600DC2038 /* Model.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				519100861E5367F600DC2038 /* Model.xcdatamodel */,
-			);
-			currentVersion = 519100861E5367F600DC2038 /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = ../../../Desktop/Model.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 51BD15651E51E7A2006656D4 /* Project object */;
 }
