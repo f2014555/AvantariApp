@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		519100871E5367F600DC2038 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 519100851E5367F600DC2038 /* Model.xcdatamodeld */; };
+		51BD15711E51E7A2006656D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD15701E51E7A2006656D4 /* AppDelegate.swift */; };
+		51BD15731E51E7A2006656D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD15721E51E7A2006656D4 /* ViewController.swift */; };
+		51BD15761E51E7A2006656D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD15741E51E7A2006656D4 /* Main.storyboard */; };
+		51BD15781E51E7A2006656D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BD15771E51E7A2006656D4 /* Assets.xcassets */; };
+		51BD157B1E51E7A2006656D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD15791E51E7A2006656D4 /* LaunchScreen.storyboard */; };
+		51BD15831E51EA3C006656D4 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BD15821E51EA3C006656D4 /* SocketIO.framework */; };
+		51BD15851E51EF1B006656D4 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD15841E51EF1B006656D4 /* SocketIOManager.swift */; };
+		51BD158C1E525A11006656D4 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BD158B1E525A11006656D4 /* UserNotifications.framework */; };
+		51BD158E1E525A11006656D4 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BD158D1E525A11006656D4 /* UserNotificationsUI.framework */; };
+		51BD15911E525A11006656D4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD15901E525A11006656D4 /* NotificationViewController.swift */; };
+		51BD15941E525A11006656D4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD15921E525A11006656D4 /* MainInterface.storyboard */; };
+		51BD15981E525A11006656D4 /* Notification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 51BD158A1E525A11006656D4 /* Notification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		51BD159D1E525C19006656D4 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BD158B1E525A11006656D4 /* UserNotifications.framework */; };
+		51BD159F1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD159E1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift */; };
+		823692C0440629193C65C9E5 /* Pods_AvantariApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00524A2001220DB2024910F4 /* Pods_AvantariApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51BD15961E525A11006656D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51BD15651E51E7A2006656D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51BD15891E525A11006656D4;
+			remoteInfo = Notification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51BD159C1E525A11006656D4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				51BD15981E525A11006656D4 /* Notification.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00524A2001220DB2024910F4 /* Pods_AvantariApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvantariApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519100861E5367F600DC2038 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		51BD156D1E51E7A2006656D4 /* AvantariApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvantariApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BD15701E51E7A2006656D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		51BD15721E51E7A2006656D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		51BD15751E51E7A2006656D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		51BD15771E51E7A2006656D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51BD157A1E51E7A2006656D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		51BD157C1E51E7A2006656D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BD15821E51EA3C006656D4 /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = "DerivedData/AvantariApp/Build/Products/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework"; sourceTree = "<group>"; };
+		51BD15841E51EF1B006656D4 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		51BD158A1E525A11006656D4 /* Notification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Notification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		51BD158B1E525A11006656D4 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		51BD158D1E525A11006656D4 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		51BD15901E525A11006656D4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		51BD15931E525A11006656D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		51BD15951E525A11006656D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BD159E1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationOnRepeatRandomNumber.swift; sourceTree = "<group>"; };
+		5D36ADBDF2E40AA416DC5526 /* Pods-AvantariApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvantariApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvantariApp/Pods-AvantariApp.release.xcconfig"; sourceTree = "<group>"; };
+		85CF12EFC603AC6437B1CD0C /* Pods-AvantariApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvantariApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvantariApp/Pods-AvantariApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51BD156A1E51E7A2006656D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD159D1E525C19006656D4 /* UserNotifications.framework in Frameworks */,
+				51BD15831E51EA3C006656D4 /* SocketIO.framework in Frameworks */,
+				823692C0440629193C65C9E5 /* Pods_AvantariApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD15871E525A11006656D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD158E1E525A11006656D4 /* UserNotificationsUI.framework in Frameworks */,
+				51BD158C1E525A11006656D4 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DB853D907AC583F6BC42480 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85CF12EFC603AC6437B1CD0C /* Pods-AvantariApp.debug.xcconfig */,
+				5D36ADBDF2E40AA416DC5526 /* Pods-AvantariApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51BD15641E51E7A2006656D4 = {
+			isa = PBXGroup;
+			children = (
+				51BD156F1E51E7A2006656D4 /* AvantariApp */,
+				51BD158F1E525A11006656D4 /* Notification */,
+				51BD156E1E51E7A2006656D4 /* Products */,
+				4DB853D907AC583F6BC42480 /* Pods */,
+				637BD8645C660E40B565C74A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51BD156E1E51E7A2006656D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51BD156D1E51E7A2006656D4 /* AvantariApp.app */,
+				51BD158A1E525A11006656D4 /* Notification.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51BD156F1E51E7A2006656D4 /* AvantariApp */ = {
+			isa = PBXGroup;
+			children = (
+				51BD15771E51E7A2006656D4 /* Assets.xcassets */,
+				51BD159E1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift */,
+				51BD15701E51E7A2006656D4 /* AppDelegate.swift */,
+				51BD15721E51E7A2006656D4 /* ViewController.swift */,
+				51BD15841E51EF1B006656D4 /* SocketIOManager.swift */,
+				51BD15741E51E7A2006656D4 /* Main.storyboard */,
+				51BD15791E51E7A2006656D4 /* LaunchScreen.storyboard */,
+				519100851E5367F600DC2038 /* Model.xcdatamodeld */,
+				51BD157C1E51E7A2006656D4 /* Info.plist */,
+			);
+			path = AvantariApp;
+			sourceTree = "<group>";
+		};
+		51BD158F1E525A11006656D4 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				51BD15901E525A11006656D4 /* NotificationViewController.swift */,
+				51BD15921E525A11006656D4 /* MainInterface.storyboard */,
+				51BD15951E525A11006656D4 /* Info.plist */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		637BD8645C660E40B565C74A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51BD15821E51EA3C006656D4 /* SocketIO.framework */,
+				00524A2001220DB2024910F4 /* Pods_AvantariApp.framework */,
+				51BD158B1E525A11006656D4 /* UserNotifications.framework */,
+				51BD158D1E525A11006656D4 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51BD156C1E51E7A2006656D4 /* AvantariApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BD157F1E51E7A2006656D4 /* Build configuration list for PBXNativeTarget "AvantariApp" */;
+			buildPhases = (
+				91D19C7A0BF8BF0383FB6C85 /* [CP] Check Pods Manifest.lock */,
+				51BD15691E51E7A2006656D4 /* Sources */,
+				51BD156A1E51E7A2006656D4 /* Frameworks */,
+				51BD156B1E51E7A2006656D4 /* Resources */,
+				5EDFA414F65ABE6363F403BE /* [CP] Embed Pods Frameworks */,
+				70DB348A301B90665182CFFA /* [CP] Copy Pods Resources */,
+				51BD159C1E525A11006656D4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51BD15971E525A11006656D4 /* PBXTargetDependency */,
+			);
+			name = AvantariApp;
+			productName = AvantariApp;
+			productReference = 51BD156D1E51E7A2006656D4 /* AvantariApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51BD15891E525A11006656D4 /* Notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51BD15991E525A11006656D4 /* Build configuration list for PBXNativeTarget "Notification" */;
+			buildPhases = (
+				51BD15861E525A11006656D4 /* Sources */,
+				51BD15871E525A11006656D4 /* Frameworks */,
+				51BD15881E525A11006656D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Notification;
+			productName = Notification;
+			productReference = 51BD158A1E525A11006656D4 /* Notification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51BD15651E51E7A2006656D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = shubhamrathi;
+				TargetAttributes = {
+					51BD156C1E51E7A2006656D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FS9MJBEMW5;
+						ProvisioningStyle = Automatic;
+					};
+					51BD15891E525A11006656D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FS9MJBEMW5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 51BD15681E51E7A2006656D4 /* Build configuration list for PBXProject "AvantariApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51BD15641E51E7A2006656D4;
+			productRefGroup = 51BD156E1E51E7A2006656D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51BD156C1E51E7A2006656D4 /* AvantariApp */,
+				51BD15891E525A11006656D4 /* Notification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51BD156B1E51E7A2006656D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD157B1E51E7A2006656D4 /* LaunchScreen.storyboard in Resources */,
+				51BD15781E51E7A2006656D4 /* Assets.xcassets in Resources */,
+				51BD15761E51E7A2006656D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD15881E525A11006656D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD15941E525A11006656D4 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EDFA414F65ABE6363F403BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvantariApp/Pods-AvantariApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70DB348A301B90665182CFFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvantariApp/Pods-AvantariApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D19C7A0BF8BF0383FB6C85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51BD15691E51E7A2006656D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD159F1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift in Sources */,
+				51BD15731E51E7A2006656D4 /* ViewController.swift in Sources */,
+				519100871E5367F600DC2038 /* Model.xcdatamodeld in Sources */,
+				51BD15851E51EF1B006656D4 /* SocketIOManager.swift in Sources */,
+				51BD15711E51E7A2006656D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51BD15861E525A11006656D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51BD15911E525A11006656D4 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51BD15971E525A11006656D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51BD15891E525A11006656D4 /* Notification */;
+			targetProxy = 51BD15961E525A11006656D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51BD15741E51E7A2006656D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BD15751E51E7A2006656D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		51BD15791E51E7A2006656D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BD157A1E51E7A2006656D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		51BD15921E525A11006656D4 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51BD15931E525A11006656D4 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51BD157D1E51E7A2006656D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51BD157E1E51E7A2006656D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51BD15801E51E7A2006656D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CF12EFC603AC6437B1CD0C /* Pods-AvantariApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FS9MJBEMW5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DerivedData/AvantariApp/Build/Products/Debug-iphoneos/Socket.IO-Client-Swift",
+				);
+				INFOPLIST_FILE = AvantariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rathi.AvantariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		51BD15811E51E7A2006656D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D36ADBDF2E40AA416DC5526 /* Pods-AvantariApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FS9MJBEMW5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DerivedData/AvantariApp/Build/Products/Debug-iphoneos/Socket.IO-Client-Swift",
+				);
+				INFOPLIST_FILE = AvantariApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rathi.AvantariApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		51BD159A1E525A11006656D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FS9MJBEMW5;
+				INFOPLIST_FILE = Notification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rathi.AvantariApp.Notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		51BD159B1E525A11006656D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FS9MJBEMW5;
+				INFOPLIST_FILE = Notification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rathi.AvantariApp.Notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51BD15681E51E7A2006656D4 /* Build configuration list for PBXProject "AvantariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD157D1E51E7A2006656D4 /* Debug */,
+				51BD157E1E51E7A2006656D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BD157F1E51E7A2006656D4 /* Build configuration list for PBXNativeTarget "AvantariApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD15801E51E7A2006656D4 /* Debug */,
+				51BD15811E51E7A2006656D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BD15991E525A11006656D4 /* Build configuration list for PBXNativeTarget "Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51BD159A1E525A11006656D4 /* Debug */,
+				51BD159B1E525A11006656D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		519100851E5367F600DC2038 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				519100861E5367F600DC2038 /* Model.xcdatamodel */,
+			);
+			currentVersion = 519100861E5367F600DC2038 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../../../Desktop/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 51BD15651E51E7A2006656D4 /* Project object */;
+}
