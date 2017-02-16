@@ -21,7 +21,7 @@
 		51BD15941E525A11006656D4 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BD15921E525A11006656D4 /* MainInterface.storyboard */; };
 		51BD15981E525A11006656D4 /* Notification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 51BD158A1E525A11006656D4 /* Notification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		51BD159D1E525C19006656D4 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51BD158B1E525A11006656D4 /* UserNotifications.framework */; };
-		51BD159F1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD159E1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift */; };
+		51BD159F1E526A9F006656D4 /* .swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BD159E1E526A9F006656D4 /* .swift */; };
 		823692C0440629193C65C9E5 /* Pods_AvantariApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00524A2001220DB2024910F4 /* Pods_AvantariApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +67,7 @@
 		51BD15901E525A11006656D4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		51BD15931E525A11006656D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		51BD15951E525A11006656D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51BD159E1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationOnRepeatRandomNumber.swift; sourceTree = "<group>"; };
+		51BD159E1E526A9F006656D4 /* .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ".swift"; sourceTree = "<group>"; };
 		5D36ADBDF2E40AA416DC5526 /* Pods-AvantariApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvantariApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvantariApp/Pods-AvantariApp.release.xcconfig"; sourceTree = "<group>"; };
 		85CF12EFC603AC6437B1CD0C /* Pods-AvantariApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvantariApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvantariApp/Pods-AvantariApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +129,7 @@
 			children = (
 				51AAE92D1E54346F000A798C /* Model.xcdatamodel */,
 				51BD15771E51E7A2006656D4 /* Assets.xcassets */,
-				51BD159E1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift */,
+				51BD159E1E526A9F006656D4 /* .swift */,
 				51BD15701E51E7A2006656D4 /* AppDelegate.swift */,
 				51BD15721E51E7A2006656D4 /* ViewController.swift */,
 				51BD15841E51EF1B006656D4 /* SocketIOManager.swift */,
@@ -318,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51BD159F1E526A9F006656D4 /* NotificationOnRepeatRandomNumber.swift in Sources */,
+				51BD159F1E526A9F006656D4 /* .swift in Sources */,
 				51AAE92E1E54346F000A798C /* Model.xcdatamodel in Sources */,
 				51BD15731E51E7A2006656D4 /* ViewController.swift in Sources */,
 				51BD15851E51EF1B006656D4 /* SocketIOManager.swift in Sources */,
